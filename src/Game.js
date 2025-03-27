@@ -76,7 +76,7 @@ const Game = () => {
 
   useEffect(() => {
     if (winner) {
-      Alert.alert("Player &{winner} won!!", " ", [
+      Alert.alert('Player &{winner} won!!', ' ', [
         { text: "OK", onPress: resetBoard },
       ]);
     }
